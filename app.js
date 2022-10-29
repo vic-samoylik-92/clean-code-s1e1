@@ -17,12 +17,12 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 //New task list item
 var createNewTaskElement=function(taskString){
 
-    var listItem=document.createElement("li");
+    var listItem=document.createElement("article");
     listItem.className='list-item'
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
-    var label=document.createElement("label");//label
+    var label=document.createElement("h3");//label
     //input (text)
     var editInput=document.createElement("input");//text
     //button.edit
